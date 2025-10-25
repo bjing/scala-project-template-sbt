@@ -1,5 +1,5 @@
 
-val toolkitVersion = "0.1.6"
+val toolkitVersion = "0.1.29"
 val circeVersion = "0.14.15"
 val scalaTestVersion = "3.2.19"
 
@@ -14,7 +14,7 @@ libraryDependencies ++= Seq(
   "io.circe" %% "circe-parser" % circeVersion,
 
   // config
-  "com.typesafe" % "config" % "1.4.2",
+  "com.typesafe" % "config" % "1.4.5",
 
   // testing
   "org.scalatest" %% "scalatest" % scalaTestVersion % Test,
